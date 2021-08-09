@@ -1,0 +1,110 @@
+.sec1-wraper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo-wraper{
+    background-image: url(../image/Component\ 71\ –\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 968px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    top: 110px;
+}
+.login-form-wraper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.login-form{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    width: 252px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4D4F5C;
+    margin-bottom: 37px;
+}
+.text{
+    font-size: 18px;
+    color: #43425D; 
+    margin-bottom: 55px;
+}
+.inputtext{
+    width: 400px;
+    margin-bottom: 44px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #E9E9F0
+}
+.rememberme-wraper{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-bottom: 63px;  
+}
+.rememberme-label{
+    font-size: 15px;
+    color: #43425D;
+}
+.forgotpass{
+    border: none;
+    background: none;
+}
+.button-wraper{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-button{
+    width: 185px;
+    height: 50px;
+    border-style: solid;
+    border-color: #43425D;
+    border-width: 1px;
+    border-radius: 5px;
+    background: #43425D;
+    color: white;
+    font-weight: bold;
+}
+.button-size{
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #43425D;
+}
+.name{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.inputname{
+    width: 188px;
+}
