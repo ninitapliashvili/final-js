@@ -21,14 +21,15 @@
                     OF DIGITAL
                     INDUSTRIES</h1>
                 <p class="text">Please complete to create your account.</p>
+                <p id="errortext"></p>
                 <div class="name">
-                    <input class="inputtext inputname" type="text" placeholder="First name">
-                    <input class="inputtext inputname" type="text" placeholder="Last name">
+                    <input id="first-name" class="inputtext inputname" type="text" placeholder="First name">
+                    <input id="last-name" class="inputtext inputname" type="text" placeholder="Last name">
                 </div>
-                <input type="text" placeholder="Username" class="inputtext">
-                <input type="text" placeholder="Email" class="inputtext">
-                <input type="password" placeholder="Password" class="inputtext">
-                <input type="password" placeholder="Confirm password" class="inputtext">
+                <input id="username" type="text" placeholder="Username" class="inputtext">
+                <input id="email" type="text" placeholder="Email" class="inputtext">
+                <input id="password" type="password" placeholder="Password" class="inputtext">
+                <input id="confirmpass" type="password" placeholder="Confirm password" class="inputtext">
                 <div class="rememberme-wraper">
                     <div>
                         <input id="termsandconditions" type="checkbox">
@@ -37,14 +38,12 @@
                     </div>
                 </div>
                 <div class="button-wraper">
-                    <button class="login-button">Login</button>
-                    <div class="button-size">
-                        <a href="#" class="signup">sign up</a>
-                    </div>
+                    <button id="login" class="login-button">Sign up</button>
                 </div>
             </form>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
